@@ -63,6 +63,10 @@ const config = {
 
   themeConfig: {
     image: "img/docusaurus-social-card.jpg",
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+    },
     navbar: {
       hideOnScroll: true,
       logo: {
@@ -96,7 +100,6 @@ const config = {
           position: "left",
           label: "Mecha Cloud",
         },
-        
         // {
         //   type: "docSidebar",
         //   sidebarId: "mechaApiSidebar",
